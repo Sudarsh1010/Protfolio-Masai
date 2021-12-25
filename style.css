@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.coral {
+    color: coral;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 60%;
+    margin: auto;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+#profile img {
+    border-radius: 50%;
+}
+
+#name {
+    margin-left: 20px;
+}
+
+#name h1 {
+    color: grey;
+}
+
+#name p {
+    letter-spacing: 2px;
+}
+
+table a {
+    text-decoration: none;
+    color: coral;
+}
+
+hr {
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.content-sub-head {
+    min-width: 300px;
+    color: coral;
+    font-size: 30px;
+}
+
+.desc-head {
+    color: black;
+    font-size: 20px;
+}
+
+.duration {
+    color: grey;
+}
+
+.content-table {
+    margin-top: 20px;
+    line-height: 25px;
+}
